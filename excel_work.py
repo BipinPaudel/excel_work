@@ -38,7 +38,11 @@ def writeFromL2InCsv(code_list,csvfile):
     df= pd.read_csv(csvfile)
     current_date=datetime.today().strftime('%d-%b')
     df=df.dropna(axis=0, how='all', thresh=None, subset=None, inplace=False).reset_index(drop=True)
-    df[current_date]= pd.Series(code_list)
+    df2= df.iloc[0:len(code_list)].copy()
+    df2['Status']=pd.Series(code_list)
+    df2['Date']=pd.Series(list(current_date for i in range(0,len(df2))))
+    df=df.append(df2)
+    
     df.to_csv(csvfile,index=False)
 
 urlfile='urls.txt'
@@ -49,5 +53,3 @@ urlList=readUrlsListFromFile(urlfile)
 statusCodeList= statusCodeListFromUrlList(urlList)
 
 writeFromL2InCsv(statusCodeList,csvfile)
-
-

@@ -1,8 +1,12 @@
-Tool,Business Rule Name,Technical Rule Name,Source,Notes,
-asdfasdf,asdfasdfs,,,,
-asdfasdf,asdfasdf,,,,
-asdfasdf,asdfasdf,,,,
-asdfasdf,asasdfasd,,,,
-asdfasdf,asdfas,,,,
-9-Dec,PASS,PASS,PASS,FAIL,FAIL
-,,,,,
+Tool,Business Rule Name,Technical Rule Name,Source,Status,Date
+asdfasdf,asdfasdfs,asdf,asd,PASS,10-Dec
+asdfasdf,asdfasdfs,asdf,asd,PASS,10-Dec
+asdfasdf,ssdf,sdf,fsdf,FAIL,10-Dec
+asdfasdf,asdfasdfs,asdf,asd,PASS,11-Dec
+asdfasdf,asdfasdfs,asdf,asd,PASS,11-Dec
+asdfasdf,ssdf,sdf,fsdf,FAIL,11-Dec
+asdfasdf,asdfasdfs,asdf,asd,PASS,11-Dec
+asdfasdf,asdfasdfs,asdf,asd,PASS,11-Dec
+asdfasdf,ssdf,sdf,fsdf,PASS,11-Dec
+asdfasdf,asdfasdfs,asdf,asd,FAIL,11-Dec
+asdfasdf,asdfasdfs,asdf,asd,FAIL,11-Dec

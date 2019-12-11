@@ -1,8 +1,10 @@
-Tool,Business Rule Name,Technical Rule Name,Source,Notes,Unnamed: 5
-asdfasdf,asdfasdfs,,,,
-asdfasdf,asdfasdf,,,,
-asdfasdf,asdfasdf,,,,
-asdfasdf,asasdfasd,,,,
-asdfasdf,asdfas,,,,
-9-Dec,PASS,PASS,PASS,FAIL,FAIL
-10-Dec,PASS,PASS,PASS,FAIL,FAIL
+Tool,Business Rule Name,Technical Rule Name,Source,Status,Date
+asdfasdf,asdfasdfs,asdf,asd,PASS,10-Dec
+asdfasdf,asdfasdfs,asdf,asd,PASS,10-Dec
+asdfasdf,ssdf,sdf,fsdf,FAIL,10-Dec
+asdfasdf,asdfasdfs,asdf,asd,PASS,11-Dec
+asdfasdf,asdfasdfs,asdf,asd,PASS,11-Dec
+asdfasdf,ssdf,sdf,fsdf,FAIL,11-Dec
+asdfasdf,asdfasdfs,asdf,asd,Paass,11-Dec
+asdfasdf,asdfasdfs,asdf,asd,sass,11-Dec
+asdfasdf,ssdf,sdf,fsdf,eass,11-Dec

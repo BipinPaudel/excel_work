@@ -1,0 +1,11 @@
+Tool,Business Rule Name,Technical Rule Name,Source,Status,Date
+Cash Flow Direct Material,Power BI Reports,Sawtooth  GMNA Assembly  Financial,Maxis,PASS,10/21/19
+Cash Flow Direct Material,Power BI Reports,Sawtooth  GMNA Assembly  Non Financial,Maxis,PASS,10/21/19
+Cash Flow Direct Material,Power BI Reports,Sawtooth  GMSA/GMIO Assembly  Financial,Maxis,PASS,10/21/19
+Cash Flow Direct Material,Power BI Reports,Sawtooth  GMSA/GMIO Assembly  Non Financial,Maxis,PASS,10/21/19
+Cash Flow Direct Material,Power BI Reports,Sawtooth  Component Plants  Financial,Maxis,FAIL,10/21/19
+Cash Flow Direct Material,Power BI Reports,Sawtooth  GMNA Assembly  Financial,Maxis,PASS,12-Dec
+Cash Flow Direct Material,Power BI Reports,Sawtooth  GMNA Assembly  Non Financial,Maxis,PASS,12-Dec
+Cash Flow Direct Material,Power BI Reports,Sawtooth  GMSA/GMIO Assembly  Financial,Maxis,PASS,12-Dec
+Cash Flow Direct Material,Power BI Reports,Sawtooth  GMSA/GMIO Assembly  Non Financial,Maxis,FAIL,12-Dec
+Cash Flow Direct Material,Power BI Reports,Sawtooth  Component Plants  Financial,Maxis,FAIL,12-Dec

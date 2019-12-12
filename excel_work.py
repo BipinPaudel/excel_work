@@ -9,6 +9,8 @@ def readUrlsListFromFile(path):
         return list(lines)
 
 def prepareUrl(url):
+        if url=="":
+        return ""
     lists=url.split(':')
     if not lists[0].startswith('http'):
         return 'https://'+url
@@ -16,6 +18,8 @@ def prepareUrl(url):
 
 def getStatusCode(url):
     try:
+        if url=="" or url.startswith('\x00'):
+            return 'FAIL'
         url= prepareUrl(url)
         r = requests.get(url)
         print(r.status_code)
